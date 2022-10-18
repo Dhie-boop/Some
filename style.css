@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin-bottom: 0;
+  margin: 0;
+}
+
+.local{
+width: 100%;
+background-image: url(53.png);
+background-position: center;
+background-size: cover;
+height: 165vh;
+}
+
+.content{
+  float: left;
+  height: 120px;
+  padding-left: 250px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 70px;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+ul li a{
+
+text-decoration: none;
+font-family:  Bahnschrift;
+font-size: 18px;
+font-weight: bold;
+color: rgb(3, 250, 250);
+transition: 0.15s ease-in-out;
+border-radius: 4px;
+padding: 6px;
+}
+
+
+ul li a:hover{
+color: #0E3438;
+background-color: rgb(250, 61, 3);
+}
+
+
+.latest{
+padding-top: 100px;
+padding-left: 150px;
+width: 250px;
+display: inline-block;
+vertical-align: top;
+margin-right: 5px;
+}
+
+.class{
+font-family: Bahnschrift;
+font-size: 25px;
+align-items: center;
+color: rgb(250, 61, 3);
+cursor: pointer;
+}
+
+.p{
+font-size: 14px;
+color: white;
+font-family: Bahnschrift;
+padding-top: 20px;
+}
+
+.pr{
+color: rgb(250, 61, 3);
+font-family: Bahnschrift;
+}
+
+.Copy{
+padding-top: 45px;
+text-align: center;
+font-size: 14px;
+color: white;
+font-family: Bahnschrift;
+padding-top: 25px;
+}
+
+
